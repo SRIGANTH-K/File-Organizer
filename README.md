@@ -84,13 +84,14 @@ python organizer.py "D:\Downloads" --undo
 
 ### Sri Ganth K
 
-| Platform | Link |
-|---|---|
-| 💼 LinkedIn | [Sri Ganth K](https://www.linkedin.com/in/sri-ganth-k) |
-| 🐙 GitHub | [SRIGANTH-K](https://github.com/SRIGANTH-K) |
-| 📷 Instagram | [sri_ganth_k](https://www.instagram.com/sri_ganth_k) |
+[![GitHub](https://img.shields.io/badge/GitHub-SRIGANTH--K-181717?style=for-the-badge&logo=github)](https://github.com/SRIGANTH-K)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sri%20Ganth%20K-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sri-ganth-k/)
+
+[![Instagram](https://img.shields.io/badge/Instagram-sri__ganth__k-E4405F?style=for-the-badge&logo=instagram)](https://www.instagram.com/sri_ganth_k/)
 
 ---
+
 
 ⭐ If you find this project useful, consider giving it a star.
 
