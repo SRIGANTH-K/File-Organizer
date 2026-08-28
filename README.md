@@ -21,30 +21,39 @@ A simple Python tool for sorting files into neat category folders, avoiding over
 | Style | Command-line utility |
 | Focus | File organization and cleanup |
 
-## 📸 Before and After
+## 📸 Screenshots
 
-<table>
-<tr>
-<td align="center">
-<img src="images/before-organizing.png" alt="Before organizing" width="360" />
-<br /><strong>Before organizing</strong>
-</td>
-<td align="center">
-<img src="images/preview-organization.png" alt="Preview organization" width="360" />
-<br /><strong>Preview of the organization</strong>
-</td>
-</tr>
-<tr>
-<td align="center">
-<img src="images/organized-history.png" alt="Organized history" width="360" />
-<br /><strong>Organized history</strong>
-</td>
-<td align="center">
-<img src="images/after-organized.png" alt="After organized" width="360" />
-<br /><strong>After organized</strong>
-</td>
-</tr>
-</table>
+### Preview of the organization
+
+```powershell
+python organizer.py "D:\Downloads" --dry-run
+```
+
+![Preview of the organization](images/preview-organization.png)
+
+### Before organizing
+
+```powershell
+python organizer.py "D:\Downloads"
+```
+
+![Before organizing](images/before-organizing.png)
+
+### After organized
+
+```powershell
+python organizer.py "D:\Downloads"
+```
+
+![After organized](images/after-organized.png)
+
+### Organized history
+
+```powershell
+python organizer.py "D:\Downloads" --undo
+```
+
+![Organized history](images/organized-history.png)
 
 ## 🧭 How It Works
 
@@ -79,6 +88,22 @@ python organizer.py "D:\Downloads" --undo
 - `.fileorganizer_history.json` stores undo history
 - `.fileorganizer.log` stores the run log
 - Category folders such as `Images`, `Documents`, and `Code` are created inside the folder you choose
+
+## 👨‍💻 Author
+
+### Sri Ganth K
+
+| Platform | Link |
+|---|---|
+| 💼 LinkedIn | [Sri Ganth K](https://www.linkedin.com/in/sri-ganth-k) |
+| 🐙 GitHub | [SRIGANTH-K](https://github.com/SRIGANTH-K) |
+| 📷 Instagram | [sri_ganth_k](https://www.instagram.com/sri_ganth_k) |
+
+---
+
+⭐ If you find this project useful, give it a star and share it with someone who needs a cleaner Downloads folder.
+
+Built with `Python` and a little love for tidy folders.
 
 ## ✅ Notes
 
