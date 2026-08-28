@@ -1,4 +1,4 @@
-# FileOrganizer
+# FileShifter 🚀 – Shift files where they belong
 
 > 🧹 Organize messy folders with one command, preview changes before you move anything, and keep your cleanup reversible.
 
@@ -21,39 +21,30 @@ A simple Python tool for sorting files into neat category folders, avoiding over
 | Style | Command-line utility |
 | Focus | File organization and cleanup |
 
-## 📸 Screenshots
+## 📸 Before and After
 
-### Preview of the organization
-
-```powershell
-python organizer.py "D:\Downloads" --dry-run
-```
-
-![Preview of the organization](images/preview-organization.png)
-
-### Before organizing
-
-```powershell
-python organizer.py "D:\Downloads"
-```
-
-![Before organizing](images/before-organizing.png)
-
-### After organized
-
-```powershell
-python organizer.py "D:\Downloads"
-```
-
-![After organized](images/after-organized.png)
-
-### Organized history
-
-```powershell
-python organizer.py "D:\Downloads" --undo
-```
-
-![Organized history](images/organized-history.png)
+<table>
+<tr>
+<td align="center">
+<img src="images/preview-organization.png" alt="Preview before organizing" width="360" />
+<br /><strong>Preview before organizing</strong>
+</td>
+<td align="center">
+<img src="images/before-organizing.png" alt="Before organizing" width="360" />
+<br /><strong>Before organizing</strong>
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="images/after-organized.png" alt="After organized" width="360" />
+<br /><strong>After organized</strong>
+</td>
+<td align="center">
+<img src="images/organized-history.png" alt="Organized history" width="360" />
+<br /><strong>Organized history</strong>
+</td>
+</tr>
+</table>
 
 ## 🧭 How It Works
 
@@ -101,7 +92,7 @@ python organizer.py "D:\Downloads" --undo
 
 ---
 
-⭐ If you find this project useful, give it a star and share it with someone who needs a cleaner Downloads folder.
+⭐ If you find this project useful, consider giving it a star.
 
 Built with `Python` and a little love for tidy folders.
 
